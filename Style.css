@@ -1,0 +1,392 @@
+.navbar-nav {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.navbar-nav .nav-item {
+  	list-style: none;
+}
+
+.navbar {
+	background: #f3f3f3;
+	padding: 10px 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-logo {
+  	height: 55px;
+}
+
+.navbar-collapse {
+	display: flex !important;
+	justify-content: center;
+}
+
+.navbar-nav {
+	display: flex;
+	gap: 28px;
+	align-items: center;
+}
+
+.nav-link {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 16px;
+	color: #444;
+	transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+ 	color: #c0392b;
+}
+
+.navbar .small {
+	font-size: 14px;
+	color: #666;
+}
+
+
+
+.cookie-bar {
+  	background-color: #7b1e1e;
+}
+
+.cookie-bar .cookie-alert {
+	background: transparent;
+	border: none;
+	color: #ffffff;
+}
+
+.cookie-bar .cookie-alert p,
+.cookie-bar .cookie-alert div,
+.cookie-bar .cookie-alert span,
+.cookie-bar .cookie-alert small {
+  	color: #ffffff;
+}
+
+.cookie-bar .cookie-alert a {
+	color: #ffffff;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.btn-red {
+	background: linear-gradient(135deg, #e0584b, #c13b2f);
+	border: none;
+	color: #ffffff !important;
+
+	padding: 8px 28px;
+	border-radius: 999px;
+
+	font-size: 15px;
+	font-weight: 500;
+
+	transition: all 0.3s ease;
+}
+
+.btn-red:hover {
+	background: linear-gradient(135deg, #c13b2f, #9f2c22);
+	transform: translateY(-1px);
+}
+
+
+
+.hero-about {
+	position: relative;
+	height: 300px;
+	background: url('https://ligamahasiswa.com/storage/about_banner/about_1767846576.jpg') center center / cover no-repeat;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+	padding-left: 5px;
+	padding-bottom: 50px;
+}
+
+
+.hero-about::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: rgba(123, 30, 30, 0.75);
+	z-index: 1;
+}
+
+.hero-content {
+	position: relative;
+	color: #ffffff;
+	max-width: 600px;
+	z-index: 2;
+	margin-left: -50px;
+}
+
+.hero-content h1 {
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.hero-content p {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.profile {
+	padding: 80px 10%;
+	background: #f4f4f4;
+	}
+
+.profile h2 {
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 60px;
+	font-weight: 600;
+}
+
+.profile h2 span {
+  	color: #c0392b;
+}
+
+
+.profile-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 60px;
+}
+
+.profile-text {
+	flex: 1;
+	font-size: 16px;
+	line-height: 1.8;
+	color: #444;
+}
+
+.profile-video {
+  	flex: 1;
+}
+
+.profile-video iframe {
+	width: 100%;
+	height: 350px;
+	border-radius: 15px;
+}
+
+
+.vm-section {
+	background: #f4f4f4;
+	padding: 80px 0;
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+	display: flex;
+	gap: 40px;
+	align-items: stretch;
+}
+
+.vm-box {
+	flex: 1;
+	background: white;
+	padding: 30px 20px;
+	border: 2px solid #c0392b;
+	border-radius: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.vm-box h3 {
+  color: #c0392b;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.vm-box p {
+	color: #444;
+	line-height: 1.8;
+}
+
+.icon {
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: white;
+	border: 2px solid #c0392b;
+	width: 60px;
+	height: 60px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 26px;
+}
+
+
+
+:root {
+	--lima-dark: #461213;
+	--lima-red: #e53935;
+	--lima-wine: #721313;
+	--soft-pink: #fdecee;
+}
+
+.bg-red {
+	background-color: var(--lima-dark) !important;
+}
+.bg-white {
+	background-color: #fff !important;
+}
+
+.nav-logo {
+	max-height: 40px;
+	width: auto;
+	display: block;
+}
+
+.btn-red {
+	background: linear-gradient(to right, var(--lima-red), var(--lima-wine));
+	color: #fff;
+	border: none;
+	border-radius: 999px;
+	padding: 10px 22px;
+}
+.btn-red:hover {
+	filter: brightness(0.95);
+	color: #fff;
+}
+
+.cookie-bar {
+	background: var(--lima-dark);
+}
+.cookie-alert {
+	background: transparent;
+	border: 0;
+	color: #fff;
+	padding: 12px 0;
+}
+
+.hero .carousel-item {
+	position: relative;
+	min-height: 70vh;
+}
+.hero-img {
+	height: 70vh;
+	object-fit: cover;
+}
+
+.hero .carousel-item::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: rgba(166, 18, 18, 0.55);
+}
+.hero-caption {
+	z-index: 2;
+	bottom: 45%;
+	transform: translateY(50%);
+}
+.hero .carousel-caption {
+	left: 50%;
+	transform: translateX(-50%);
+	right: auto;
+	text-align: center;
+	width: min(700px, 92%);
+}
+
+.icon-tile {
+	background: #fff;
+	border-radius: 14px;
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+	height: 90px;
+	padding: 14px;
+}
+
+.news-section {
+	background: var(--soft-pink);
+}
+
+.news-card {
+	position: relative;
+	height: 340px; /* PENTING: pakai height, bukan min-height */
+	border-radius: 18px;
+	overflow: hidden;
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.news-card .card-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* bikin full cover tanpa gepeng */
+	display: block; /* hilangin gap bawah img */
+	filter: saturate(1.05) contrast(1.05);
+}
+
+.news-card .card-img-overlay {
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.05));
+	color: #fff;
+}
+
+/* Footer */
+.footer {
+	background: linear-gradient(to right, var(--lima-red), var(--lima-dark));
+}
+.footer-logo {
+	max-height: 40px;
+	width: auto;
+}
+.footer-link {
+	color: rgba(255, 255, 255, 0.75);
+	text-decoration: none;
+}
+.footer-link:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.footer-bottom {
+	background: rgba(0, 0, 0, 0.18);
+}
+
+/* Small screens tweaks */
+@media (max-width: 576px) {
+	.hero-img {
+		height: 60vh;
+	}
+	.hero .carousel-item {
+		min-height: 60vh;
+	}
+	.hero-caption {
+		bottom: 50%;
+	}
+	.news-card {
+		height: 260px;
+	}
+}
+
+.newsSwiper .swiper-slide {
+	width: 260px;
+}
+.newsSwiper .swiper-wrapper {
+	padding-bottom: 8px;
+}
+.card-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
